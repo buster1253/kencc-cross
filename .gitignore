@@ -1,0 +1,9 @@
+mk/*
+*/**.o
+*/**.a
+Linux
+*/**.out
+
+
+tags
+compile_commands.json
