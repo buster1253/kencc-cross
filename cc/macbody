@@ -1,5 +1,9 @@
 #define VARMAC 0x80
 
+
+int
+getchar(void) { return getc(); }
+
 long
 getnsn(void)
 {
@@ -41,6 +45,7 @@ getsym(void)
 	*cp = 0;
 	if(cp > symb+NSYMB-4)
 		yyerror("symbol too large: %s", symb);
+
 	return lookup();
 }
 

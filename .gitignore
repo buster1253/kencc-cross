@@ -1,9 +1,10 @@
 mk/*
 */**.o
 */**.a
-Linux
 */**.out
-
+Linux
+bin
+env
 
 tags
 compile_commands.json

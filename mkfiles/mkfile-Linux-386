@@ -15,6 +15,7 @@ ASFLAGS=
 CC=		cc -c -m32
 CFLAGS=		-g\
 		-O\
+		-fcommon\
 		-I$ROOT/Linux/386/include\
 		-I$ROOT/include\
 		-DLINUX_386

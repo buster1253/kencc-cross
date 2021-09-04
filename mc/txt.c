@@ -5,7 +5,7 @@ ginit(void)
 {
 	Type *t;
 
-	thechar = 't';
+	thechar = 'm';
 	thestring = "arm";
 	exregoffset = REGEXT;
 	exfregoffset = FREGEXT;

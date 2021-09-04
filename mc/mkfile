@@ -1,6 +1,6 @@
-<../../../mkconfig
+<../mkconfig
 
-TARG=tc
+TARG=mc
 
 OFILES=	cgen.$O\
 	enam.$O\
